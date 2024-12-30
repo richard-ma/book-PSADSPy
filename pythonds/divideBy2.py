@@ -1,4 +1,4 @@
-from src.basic import Stack
+from pythonds.basic import Stack
 
 
 def divideBy2(decNumber):

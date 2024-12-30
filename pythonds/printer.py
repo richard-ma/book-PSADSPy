@@ -1,5 +1,5 @@
 import random
-from src.basic import Queue
+from pythonds.basic import Queue
 
 
 class Printer:

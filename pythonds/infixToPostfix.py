@@ -1,4 +1,4 @@
-from src.basic import Stack
+from pythonds.basic import Stack
 import string
 
 

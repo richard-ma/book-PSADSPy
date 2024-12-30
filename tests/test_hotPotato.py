@@ -1,5 +1,5 @@
 import unittest
-from src.hotPotato import hotPotato
+from pythonds.hotPotato import hotPotato
 
 
 class TestHotPotato(unittest.TestCase):

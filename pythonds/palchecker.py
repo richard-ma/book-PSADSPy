@@ -1,4 +1,4 @@
-from src.basic import Deque
+from pythonds.basic import Deque
 
 
 # Palindrome-Checker

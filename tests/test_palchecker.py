@@ -1,5 +1,5 @@
 import unittest
-from src.palchecker import palchecker
+from pythonds.palchecker import palchecker
 
 
 class TestPalchecker(unittest.TestCase):

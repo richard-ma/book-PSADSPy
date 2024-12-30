@@ -1,5 +1,5 @@
 import unittest
-from src.baseConverter import baseConverter
+from pythonds.baseConverter import baseConverter
 
 
 class TestBaseConverter(unittest.TestCase):
