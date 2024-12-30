@@ -1,4 +1,5 @@
 import unittest
+from src.basic import Stack
 
 
 class TrueTest(unittest.TestCase):
@@ -9,4 +10,5 @@ class TrueTest(unittest.TestCase):
         return super().tearDown()
     
     def test_testrunner(self):
+        s = Stack()
         return True
