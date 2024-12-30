@@ -16,3 +16,22 @@ class Stack:
     
     def size(self):
         return len(self.items)
+
+
+class Queue:
+    def __init__(self) -> None:
+        self._data = list()
+
+    def isEmpty(self):
+        return len(self._data) == 0
+    
+    def enqueue(self, val):
+        self._data.append(val)
+        # self._data.insert(0, val)
+
+    def dequeue(self):
+        return self._data.pop(0)
+        # return self._data.pop()
+
+    def size(self):
+        return len(self._data)
