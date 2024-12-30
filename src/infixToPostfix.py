@@ -16,7 +16,7 @@ def infixToPostfix(infixexpr):
     tokenList = infixexpr.split()
 
     for token in tokenList:
-        if token in string.ascii_uppercase: # 如果节点是字母，直接添加到后序列表中
+        if token in string.ascii_uppercase or token in "0123456789": # 如果节点是字母，直接添加到后序列表中
             postfixList.append(token)
         elif token == '(': # 如果节点是左括号，添加到opStack
             opStack.push(token)
