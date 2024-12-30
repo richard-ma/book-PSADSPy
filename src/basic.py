@@ -35,3 +35,26 @@ class Queue:
 
     def size(self):
         return len(self._data)
+        
+        
+class Deque:
+    def __init__(self):
+        self._data = list()
+
+    def isEmpty(self):
+        return len(self._data) == 0
+    
+    def size(self):
+        return len(self._data)
+
+    def addRear(self, val):
+        self._data.append(val)
+    
+    def addFront(self, val):
+        self._data.insert(0, val)
+
+    def removeRear(self):
+        return self._data.pop()
+    
+    def removeFront(self):
+        return self._data.pop(0)
