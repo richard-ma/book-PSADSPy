@@ -1,5 +1,5 @@
 import unittest
-from divideBy2 import divideBy2
+from src.divideBy2 import divideBy2
 
 
 class TestDivideBy2(unittest.TestCase):

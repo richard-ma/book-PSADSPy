@@ -1,5 +1,5 @@
 import unittest
-from infixToPostfix import infixToPostfix, postfixEval, doMath
+from src.infixToPostfix import infixToPostfix, postfixEval, doMath
 
 
 class TestInfixToPostfix(unittest.TestCase):

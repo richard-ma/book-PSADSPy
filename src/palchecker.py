@@ -1,4 +1,4 @@
-from basic import Deque
+from src.basic import Deque
 
 
 # Palindrome-Checker

@@ -1,4 +1,4 @@
-from basic import Queue
+from src.basic import Queue
 
 
 def hotPotato(namelist, num):

@@ -1,5 +1,5 @@
 import unittest
-from parChecker import parChecker
+from src.parChecker import parChecker
 
 
 class TestParChecker(unittest.TestCase):

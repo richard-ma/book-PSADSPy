@@ -1,5 +1,5 @@
 import random
-from basic import Queue
+from src.basic import Queue
 
 
 class Printer:
