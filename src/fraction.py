@@ -92,27 +92,3 @@ class Fraction:
 
     def getDen(self):
         return self.den
-
-if __name__ == "__main__":
-    f = Fraction(3, 5)
-    f.show()
-    print(f)
-
-    other_f = Fraction(1, 5)
-    print(f + other_f)
-
-    print(f - other_f)
-    print(f * other_f)
-    print(f / other_f)
-
-    other = Fraction(3, 5)
-    print(f == other) # True
-    print(other_f != other) # True
-    print(f != other) # False
-    print(f > other_f) # True
-    print(other_f < f) # True
-    print(f >= f) # True
-    print(f <= f) # True
-
-    negative = Fraction(2, -5)
-    print(negative)
