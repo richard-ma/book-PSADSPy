@@ -25,7 +25,7 @@ def recDC(coinValueList, change, knowResults):
     return minCoins
         
 
-result = recMC([1, 5, 10, 25], 63)
+result = recMC([1, 5, 10, 25], 6)
 print(result)
 result = recDC([1, 5, 10, 25], 63, [0]*64)
 print(result)
