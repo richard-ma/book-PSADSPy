@@ -24,3 +24,8 @@ class TestSort(unittest.TestCase):
         sorted_alist = selectionSort(self.alist)
         self.alist.sort()
         self.assertEqual(sorted_alist, self.alist)
+    
+    def test_insertionSort(self):
+        sorted_alist = insertionSort(self.alist)
+        self.alist.sort()
+        self.assertEqual(sorted_alist, self.alist)
