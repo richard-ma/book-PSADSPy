@@ -29,3 +29,8 @@ class TestSort(unittest.TestCase):
         sorted_alist = insertionSort(self.alist)
         self.alist.sort()
         self.assertEqual(sorted_alist, self.alist)
+    
+    def test_shellSort(self):
+        sorted_alist = shellSort(self.alist)
+        self.alist.sort()
+        self.assertEqual(sorted_alist, self.alist)
