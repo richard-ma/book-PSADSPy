@@ -39,3 +39,8 @@ class TestSort(unittest.TestCase):
         sorted_alist = mergeSort(self.alist)
         self.alist.sort()
         self.assertEqual(sorted_alist, self.alist)
+    
+    def test_quickSort(self):
+        sorted_alist = quickSort(self.alist)
+        self.alist.sort()
+        self.assertEqual(sorted_alist, self.alist)
