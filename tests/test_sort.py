@@ -14,3 +14,8 @@ class TestSort(unittest.TestCase):
         sorted_alist = bubbleSort(self.alist)
         standard_alist_sort = self.alist.sort()
         self.assertEqual(sorted_alist, standard_alist_sort)
+    
+    def test_shortBubbleSort(self):
+        sorted_alist = shortBubbleSort(self.alist)
+        standard_alist_sort = self.alist.sort()
+        self.assertEqual(sorted_alist, standard_alist_sort)
