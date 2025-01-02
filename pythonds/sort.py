@@ -6,6 +6,8 @@ def bubbleSort(alist):
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
 
+    return alist
+
 def shortBubbleSort(alist):
     exchange = True
     passnum = len(alist) - 1
@@ -19,3 +21,18 @@ def shortBubbleSort(alist):
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
         passnum = passnum - 1
+
+    return alist
+
+def selectionSort(alist):
+    for fillslot in range(len(alist)-1, 0, -1):
+        positionOfMax = 0
+        for location in range(1, fillslot+1):
+            if alist[location] > alist[positionOfMax]:
+                positionOfMax = location
+        temp = alist[fillslot]
+        alist[fillslot] = alist[positionOfMax]
+        alist[positionOfMax] = temp
+
+    return alist
+        

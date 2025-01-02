@@ -19,3 +19,8 @@ class TestSort(unittest.TestCase):
         sorted_alist = shortBubbleSort(self.alist)
         self.alist.sort()
         self.assertEqual(sorted_alist, self.alist)
+    
+    def test_selectionSort(self):
+        sorted_alist = selectionSort(self.alist)
+        self.alist.sort()
+        self.assertEqual(sorted_alist, self.alist)
