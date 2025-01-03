@@ -30,3 +30,17 @@ class TestTree(unittest.TestCase):
         rootval = r.getRootVal()
         self.assertEqual('b', rootval)
         
+    def test_binaryheap(self):
+        bh = BinaryHeap()
+        bh.insert(5)
+        bh.insert(7)
+        bh.insert(3)
+        bh.insert(11)
+        result = bh.delMin()
+        self.assertEqual(result, 3)
+        result = bh.delMin()
+        self.assertEqual(result, 5)
+        result = bh.delMin()
+        self.assertEqual(result, 7)
+        result = bh.delMin()
+        self.assertEqual(result, 11)
